@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <title>BMI Calculator</title>
+	<script src="calc.js"></script> 
+</head> 
+<style>
+	body{
+		padding-left: 40%;
+		padding-top: 15%;
+	}
+	container{
+		text-size-adjust: 40px;
+	}
+</style>
+
+<body> 
+	<div class="container"> 
+		<h1 style="color: blue;">BMI Calculator</h1> 
+
+		<!-- Option for providing height 
+			and weight to the user-->
+		<p>Height (in cm)</p> 
+
+		<input type="text" id="height"> 
+
+		<p>Weight (in kg)</p> 
+
+		<input type="text" id="weight"> 
+
+		<button id="btn">Calculate</button> 
+
+		<div id="result"></div> 
+	</div> 
+</body> 
+
+</html> 
